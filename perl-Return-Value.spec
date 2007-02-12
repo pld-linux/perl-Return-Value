@@ -6,7 +6,7 @@
 %define	pdir	Return
 %define	pnam	Value
 Summary:	Return::Value - Polymorphic Return Values
-Summary(pl):	Return::Value - Polimorficzne zwracanie warto¶ci
+Summary(pl.UTF-8):   Return::Value - Polimorficzne zwracanie wartoÅ›ci
 Name:		perl-Return-Value
 Version:	1.301
 Release:	1
@@ -40,23 +40,23 @@ return values.
 This module provides these features with a simple API that should get
 you what you're looking for in each context a return value is used in.
 
-%description -l pl
-Polimorficzne warto¶ci zwracane bywaj± naprawdê przydatne. Czêsto
-chcemy tylko wiedzieæ, czy co¶ zadzia³a³o, czy nie. Innym razem
-chcieliby¶my poznaæ tekstow± postaæ b³êdu. W jeszcze innym przypadku
-mo¿emy chcieæ poznaæ kod b³êdu i jego w³a¶ciwo¶ci. Nie chcemy
-obs³ugiwaæ obiektów czy struktur danych dla ka¿dej zwracanej warto¶ci,
-ale chcemy sprawdziæ w naszym kodzie wyst±pienie b³êdu, poniewa¿ tak
-robi± dobrzy programi¶ci.
+%description -l pl.UTF-8
+Polimorficzne wartoÅ›ci zwracane bywajÄ… naprawdÄ™ przydatne. CzÄ™sto
+chcemy tylko wiedzieÄ‡, czy coÅ› zadziaÅ‚aÅ‚o, czy nie. Innym razem
+chcielibyÅ›my poznaÄ‡ tekstowÄ… postaÄ‡ bÅ‚Ä™du. W jeszcze innym przypadku
+moÅ¼emy chcieÄ‡ poznaÄ‡ kod bÅ‚Ä™du i jego wÅ‚aÅ›ciwoÅ›ci. Nie chcemy
+obsÅ‚ugiwaÄ‡ obiektÃ³w czy struktur danych dla kaÅ¼dej zwracanej wartoÅ›ci,
+ale chcemy sprawdziÄ‡ w naszym kodzie wystÄ…pienie bÅ‚Ä™du, poniewaÅ¼ tak
+robiÄ… dobrzy programiÅ›ci.
 
-W przypadku sukcesu funkcje mog± zwróciæ warto¶æ true albo jakie¶
-przydatne dane. Przy poszukiwaniu sposobu dostarczenia spójnych
-warto¶ci b³êdów, staje siê to coraz bardziej zagmatwane pomiêdzy
-z³o¿onymi, informacyjnymi b³êdami a poprawnymi zwracanymi warto¶ciami.
+W przypadku sukcesu funkcje mogÄ… zwrÃ³ciÄ‡ wartoÅ›Ä‡ true albo jakieÅ›
+przydatne dane. Przy poszukiwaniu sposobu dostarczenia spÃ³jnych
+wartoÅ›ci bÅ‚Ä™dÃ³w, staje siÄ™ to coraz bardziej zagmatwane pomiÄ™dzy
+zÅ‚oÅ¼onymi, informacyjnymi bÅ‚Ä™dami a poprawnymi zwracanymi wartoÅ›ciami.
 
-Ten modu³ dostarcza te mo¿liwo¶ci z prostym API, które powinno
-zapewniæ to, czego szukamy w ka¿dym kontek¶cie wykorzystania zwracanej
-warto¶ci.
+Ten moduÅ‚ dostarcza te moÅ¼liwoÅ›ci z prostym API, ktÃ³re powinno
+zapewniÄ‡ to, czego szukamy w kaÅ¼dym kontekÅ›cie wykorzystania zwracanej
+wartoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
