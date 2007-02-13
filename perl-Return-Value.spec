@@ -6,7 +6,7 @@
 %define	pdir	Return
 %define	pnam	Value
 Summary:	Return::Value - Polymorphic Return Values
-Summary(pl.UTF-8):   Return::Value - Polimorficzne zwracanie wartości
+Summary(pl.UTF-8):	Return::Value - Polimorficzne zwracanie wartości
 Name:		perl-Return-Value
 Version:	1.301
 Release:	1
