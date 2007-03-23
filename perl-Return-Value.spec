@@ -8,13 +8,13 @@
 Summary:	Return::Value - Polymorphic Return Values
 Summary(pl.UTF-8):	Return::Value - Polimorficzne zwracanie wartości
 Name:		perl-Return-Value
-Version:	1.301
+Version:	1.302
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	15aeae9a075d58431c2656ec0e2f6cb3
+# Source0-md5:	fed7ed691b0945d8ec27e7c7440e6f97
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
