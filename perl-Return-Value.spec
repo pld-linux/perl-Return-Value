@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Return
 %define	pnam	Value
 Summary:	Return::Value - Polymorphic Return Values
